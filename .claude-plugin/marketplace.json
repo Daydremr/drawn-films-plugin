@@ -1,0 +1,15 @@
+{
+  "name": "drawn-films",
+  "description": "Drawn Films: hand-drawn animated films made by your own Claude, drawn and rendered on the Drawn Films server. Needs a Drawn Films account.",
+  "owner": {
+    "name": "Drawn Films"
+  },
+  "plugins": [
+    {
+      "name": "drawn-films-app",
+      "source": "./drawn-films-app",
+      "version": "1.0.1",
+      "description": "For the Drawn Films app ($19 a month): your Claude writes and directs, and the Drawn Films server draws and renders the 1080p film. Nothing to install. Needs your Drawn Films key."
+    }
+  ]
+}

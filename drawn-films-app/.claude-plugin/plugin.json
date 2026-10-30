@@ -1,0 +1,29 @@
+{
+  "name": "drawn-films-app",
+  "displayName": "Drawn Films app",
+  "version": "1.0.1",
+  "description": "For the Drawn Films app ($19 a month): your Claude writes and directs, and the Drawn Films server draws the stills and renders the 1080p video, so there's nothing to install. It asks for your Drawn Films key (app.drawnfilms.com: Settings, then Connections).",
+  "author": {
+    "name": "Drawn Films",
+    "email": "hello@drawnfilms.com",
+    "url": "https://drawnfilms.com"
+  },
+  "homepage": "https://drawnfilms.com",
+  "repository": "https://github.com/Daydremr/drawn-films-plugin",
+  "keywords": [
+    "animation",
+    "film",
+    "video",
+    "storytelling",
+    "youtube"
+  ],
+  "userConfig": {
+    "key": {
+      "type": "string",
+      "title": "Drawn Films key",
+      "description": "Your plugin key: in the Drawn Films app (app.drawnfilms.com), open Settings, then Connections, and copy it.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

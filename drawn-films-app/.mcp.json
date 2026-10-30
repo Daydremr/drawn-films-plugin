@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "drawn-films": {
+      "type": "http",
+      "url": "${DRAWN_FILMS_URL:-https://api-staging-de61.up.railway.app/mcp}",
+      "headers": {
+        "X-Drawn-Films-Key": "${user_config.key}"
+      },
+      "timeout": 600000
+    }
+  }
+}
